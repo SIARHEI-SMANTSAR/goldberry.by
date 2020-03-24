@@ -1,0 +1,53 @@
+* {
+  font-family: Philosopher, Arial, sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #222;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.gold-berry-main {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 30px;
+  box-sizing: border-box;
+  min-width: 300px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  padding: 15px;
+  color: #eee;
+  text-align: center;
+  font-size: 13px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.gold-berry-logo {
+  width: 100%;
+  max-width: 500px;
+}
+
+.gold-berry-h1 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+@media (min-width: 992px) {
+  .gold-berry-h1 {
+    font-size: 1.5rem;
+  }
+
+  .gold-berry-content {
+    font-size: 1rem;
+  }
+}
